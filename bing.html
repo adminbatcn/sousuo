@@ -1,5 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>必应搜索</title>
 <script>
-<!--
-document.write(unescape("%3C%21DOCTYPE%20HTML%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%3Cmeta%20charset%3D%22utf-8%22%3E%0A%3Ctitle%3E%u8C37%u6B4C%u641C%u7D22%3C/title%3E%0A%3Cscript%3E%0Ad%3Ddocument%3B%0Afunction%20u%28%29%7B%0Avar%20f%20%3D%20%22//cn.bing.com/%22%3B%0Ad.getElementById%28%22m%22%29.src%3Df%3B%0A%7D%0A%3C/script%3E%0A%3Cstyle%3E%0Abody%20%7Bmargin%3A0%3Bcolor%3A%23000%3Boverflow%3Ahidden%3Bpadding%3A0%3Bheight%3A100%25%3Bfont-family%3AArial%7D%0Aa%7Bcursor%3Apointer%3Bdisplay%3Ablock%3Bposition%3Aabsolute%3Bborder%3A1px%3Bborder-radius%3A1em%3Bbackground-color%3A%23555%3Bcolor%3A%23eee%3Bz-index%3A3%3Bright%3A5px%3Btop%3A5px%3Bline-height%3A20px%3Btext-align%3Acenter%3Bwidth%3A20px%3Bfont-size%3A10px%7D%0A%23i%7Bdisplay%3Ablock%3B%20position%3Aabsolute%3B%20z-index%3A1%3B%20width%3A100%25%3B%20height%3A100%25%7D%0A%3C/style%3E%0A%3C/head%3E%0A%3Cbody%20onLoad%3Du%28%29%3E%0A%3Cdiv%20id%3Di%3E%0A%3Ciframe%20id%3Dm%20frameborder%3D0%20width%3D100%25%20height%3D100%25%3E%3C/iframe%3E%0A%3C/div%3E%0A%0A%3C/body%3E%0A%3C/html%3E%0A"));
-//-->
+d=document;
+function u(){
+var f = "//cn.bing.com/";
+d.getElementById("m").src=f;
+}
 </script>
+<style>
+body {margin:0;color:#000;overflow:hidden;padding:0;height:100%;font-family:Arial}
+a{cursor:pointer;display:block;position:absolute;border:1px;border-radius:1em;background-color:#555;color:#eee;z-index:3;right:5px;top:5px;line-height:20px;text-align:center;width:20px;font-size:10px}
+#i{display:block; position:absolute; z-index:1; width:100%; height:100%}
+</style>
+</head>
+<body onLoad=u()>
+<div id=i>
+<iframe id=m frameborder=0 width=100% height=100%></iframe>
+</div>
+
+</body>
+</html>
